@@ -1,0 +1,15 @@
+@mixin button{
+    display: inline-block;
+        border: 1px solid var(--skyblue);
+        color: var(--white);
+        padding: 10px 20px;
+        text-transform: capitalize;
+        border-radius: 8px;
+        transition: var(--animation);
+    
+        &:hover,
+        &:focus {
+            background-color: var(--skyblue);
+            color: var(--white);
+        }
+}

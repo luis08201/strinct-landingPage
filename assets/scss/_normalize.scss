@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;    
+}
+
+:root{
+    --black:#2a2a2a;
+    --gray:#E8E9E9;
+    --white:#FFFFFF;
+    --skyblue:#15A4FA;
+    --skyblue-55: rgba(21, 162, 250, 0.7);
+    --red:rgb(177, 11, 11);
+
+    //Animation
+    --animation: 0.5s;
+    --animation1: 0.7s;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+@keyframes arrowDown {
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes arrowUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
